@@ -1,12 +1,12 @@
 module.exports = {
   owners: [],
   nodes: [{
-    identifier: 'NODE-MAIN-2',
-    host: 'lavalink-repl.ahmasa.repl.co',
-    password: 'youshallnotpass',
+    identifier: 'LykHost-LavaLink',
+    host: 'lavalykhost',
+    password: 'lavalykhost',
     port: 443,
     secure: true,
   }],
-  prefix: 'nb!',
-  updateSlash: false,
+  prefix: 'r!',
+  updateSlash: true,
 };
